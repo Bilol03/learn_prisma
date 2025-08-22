@@ -13,8 +13,7 @@ export class UsersService {
         phone: createUserDto.phone,
         firstName: createUserDto.firstName,
         lastName: createUserDto.lastName,
-        password: createUserDto.password,
-        currentBranch: createUserDto.currentBranch
+        password: createUserDto.password
       }
     })
     return user

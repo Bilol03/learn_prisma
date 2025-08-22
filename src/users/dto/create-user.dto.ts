@@ -15,7 +15,4 @@ export class CreateUserDto {
     @IsString()
     @ApiProperty({example: "password123", description: "Parol kiriting"})
     password: string
-    @IsString()
-    @ApiProperty({example: "nimadur", description: "Hozirgi fillial"})
-    currentBranch: string
 }
