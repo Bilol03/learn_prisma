@@ -11,7 +11,7 @@ export class UsersService {
     const user = await this.prisma.user.create( {
       data: {
         phone: createUserDto.phone,
-        firstName: createUserDto.firstName,
+        givenName: createUserDto.firstName,
         lastName: createUserDto.lastName,
         password: createUserDto.password,
         curentBranch: createUserDto.curentBranch
