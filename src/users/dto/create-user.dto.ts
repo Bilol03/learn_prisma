@@ -17,5 +17,5 @@ export class CreateUserDto {
     password: string
     @IsString()
     @ApiProperty({example: "ishonh", description: "branch nomini yozing"})
-    currentBranch: string
+    curentBranch: string
 }

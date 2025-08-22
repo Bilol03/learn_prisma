@@ -14,7 +14,7 @@ export class UsersService {
         firstName: createUserDto.firstName,
         lastName: createUserDto.lastName,
         password: createUserDto.password,
-        currentBranch: createUserDto.currentBranch
+        curentBranch: createUserDto.curentBranch
       }
     })
     return user
