@@ -14,7 +14,6 @@ model User {
   firstName      String?
   lastName       String?
   password       String?
-  currentBranch  String? 
   curentBranch   String?
   createdAt      DateTime      @default(now())
   updatedAt      DateTime      @default(now())
